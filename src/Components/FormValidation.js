@@ -42,7 +42,6 @@ const FormValidation = () => {
      }
 
 
-
       <form onSubmit={submitUser}>
         <input 
         type="text"

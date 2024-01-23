@@ -4,6 +4,10 @@ import CounterApp from "./Components/CounterApp";
 import FormBasics from "./Components/FormBasics";
 import FormBasics2 from "./Components/FormBasics2";
 import FormValidation from "./Components/FormValidation";
+import Fruits from "./Components/Fruits";
+import LazyInitialization from "./Components/LazyInitialization";
+import Objects from "./Components/Objects";
+import Async from "./Components/Async";
 
 const App = () => {
 
@@ -12,7 +16,11 @@ const App = () => {
       // <CounterApp/>
       // <FormBasics/>
       // <FormBasics2 />
-      <FormValidation/>
+      // <FormValidation/>
+      // <Fruits/>
+      // <LazyInitialization/>
+      // <Objects/>
+      <Async/>
     );
 
 }
